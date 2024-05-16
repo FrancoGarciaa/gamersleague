@@ -596,9 +596,16 @@ h1 {color: white;
 }
 
 .consejos{
-    color: #8b3fee;
+    color: #d0a9e7;
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.consejo{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    color: #be95f3;
 }
 .consejo1{
     display: flex;
@@ -606,7 +613,7 @@ h1 {color: white;
     margin-left: 50px;
     margin-top: 80px;
     margin-bottom: 50px;
-    border: solid 5px rgba(255, 255, 255, 0.2);
+    border: solid 10px rgba(111, 0, 255, 0.164);
 }
 .consejo2{
     display: flex;
@@ -614,7 +621,7 @@ h1 {color: white;
     margin-left: 300px;
     margin-top: 150px;
     margin-bottom: 50px;
-    border: solid 1px rgba(255, 255, 255, 0.2);
+    border: solid 10px rgba(111, 0, 255, 0.164);
 }
 .consejo3{
     display: flex;
@@ -622,7 +629,7 @@ h1 {color: white;
     margin-left: 600px;
     margin-top: 150px;
     margin-bottom: 50px;
-    border: solid 1px rgba(255, 255, 255, 0.2);
+    border: solid 10px rgba(111, 0, 255, 0.164);
 }
 /* .carousel-inner{
     display: flex;

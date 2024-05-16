@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="Shortcut icon" href="./assets/favicon-16x16.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <title>Home | GamersLeague</title>
 </head>
@@ -19,10 +19,10 @@
         <nav>
             <ul>
                 <li><a href="./index.html">HOME</a></li>
-                <li><a href="../rankings.html">RANKINGS</a></li>
-                <li><a href="../juegos.html">JUEGOS</a></li>
-                <li><a href="../soporte.html">SOPORTE</a></li>
-                <li><a href="../novedades.html">NOVEDADES</a></li>
+                <li><a href="./pages/rankings.html">RANKINGS</a></li>
+                <li><a href="./pages/juegos.html">JUEGOS</a></li>
+                <li><a href="./pages/soporte.html">SOPORTE</a></li>
+                <li><a href="./pages/novedades.html">NOVEDADES</a></li>
                 <!-- <li><a href="pages/iniciarsesion.html" class="account">INICIAR SESION</a></li> -->
             </ul>  
             <nav>
@@ -79,18 +79,21 @@
             <span class="visually-hidden">Next</span>
             </button>
         </div>
+        <div class="consejo">
+            <h3><u>CONSEJOS PARA GAMERS</u></h3>
+        </div>
     <div class="consejos">
-        <div class="consejo1">
+        <div class="consejo1" data-aos="fade-up" data-aos-duration="1500">
             <p>
                 Compite en torneos diarios y/o clasificatorios a competiciones nacionales e internacionales para poder ganar recompensas diarias e intercambiarlas por premios, también puedes abrirte camino hacia la escena semi y profesional.
             </p>
         </div>
-        <div class="consejo2">
+        <div class="consejo2" data-aos="fade-up" data-aos-duration="1500">
             <p>
                 Juega a cualquier hora y día contra rivales de tu región de juego. Escala posiciones para obtener recompensas a final de mes ya sea para mejorar como jugador, divertirte o para demostrar que eres el mejor.
             </p>
         </div>
-        <div class="consejo3">
+        <div class="consejo3" data-aos="fade-up" data-aos-duration="1500">
             <p>
                 Compite en los desafíos SOLOQ cada 2 semanas, competiciones en las que sólo cuentas tú y tu habilidad y no dependes de absolutamente nadie, tus mejores puntuaciones serán reflejadas a escala mundial y podrás ganar recompensas al final de cada desafío.
             </p>
@@ -153,6 +156,10 @@
             </nav>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
 </html>
 
