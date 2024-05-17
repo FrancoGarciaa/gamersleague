@@ -783,16 +783,27 @@ form .username {
 
 /* Mobile */
 @media screen and (min-width: 320px) and (max-width: 767px){
+/* INDEX */
+    header{
+        background-color: #200f35;
+        display: none;
+    }
+    footer{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
     .middle h1{
         font-family: fantasy;
         font-weight: 300;   
         font-style: normal;
         text-align: center;
-        font-size: 30px;
+        font-size: 50px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-right: 75px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
     .imagenportada1 h2{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -800,31 +811,347 @@ form .username {
         font-style: normal;
         color: white;
         text-align: center;
-        font-size: 10px;
+        font-size: 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-right: 75px;
+        margin-left: 5px;
     }
-    
+    .boton-para-registrarse {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        margin: 2.1rem;
+        margin-left: 5px;
+    }
+    .carousel-inner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -200px;
+        width: 500px;
+        height: 400px;
+    }
+    .consejos{
+        color: #d0a9e7;
+        font-size: 40px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        align-items: center;
+    }
+    .consejo{
+        margin-top: 80px;
+        margin-left: 200px;
+        margin-bottom: 50px;
+        color: #be95f3;
+        font-size: 100px;
+    }
+    .consejo1{
+        display: flex;
+        justify-content: center;
+        margin-left: 100px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border: solid 20px rgba(111, 0, 255, 0.164);
+    }
+    .consejo2{
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        margin-left: 100px;
+        margin-bottom: 50px;
+        border: solid 20px rgba(111, 0, 255, 0.164);
+        width: 150px;
+    }
+    .consejo3{
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        margin-left: 100px;
+        margin-bottom: 50px;
+        border: solid 20px rgba(111, 0, 255, 0.164);
+    }
+/* FIN DEL INDEX */
+/* RANKINGS */
+.rankings-details h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3.5rem;
+    height: auto;
+    margin: 1.5rem;
+}
+
+.rankings-details1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: -200px;
+}
+.search-container2 input{
+    width: 180%;
+    height: 40px;
+    border: 2px solid;
+    background: rgb(255, 255, 255);
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    outline: none;
+}
+
+.details-1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    margin-left: 155px;
+    margin-top: 5px;
+}   
+
+.details-1 select{
+    width: 80%;
+    height: 40px;
+    border: 2px solid;
+    background: rgb(255, 255, 255);
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    outline: none;
+}
+
+.rankings-details1 svg{
+        width: 30px;
+        height: 30px;
+        color: white;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center; 
+        margin-left: 205px; 
+}
+.rankings-details h2{
+    width: 30px;
+    height: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+.tablerankings{
+    border: solid 1px rgba(255, 255, 255, 0.2);
+    margin-top: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+    margin-right: 105px;
+}
+.tablerankings table{
+    color: white;
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+.tablerankings thead{
+    background: rgba(243, 140, 210, 0.4);
+    font-size: 20px;
+}
+
+.tablerankings th{
+    padding: 80px 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.tablerankings td{
+    padding: 70px;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+}
+
 }
 
 /* Tablet */
 @media screen and (min-width: 768px) and (max-width: 1023px){
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .middle h1{
+        font-family: fantasy;
+        font-weight: 300;   
+        font-style: normal;
+        text-align: center;
+        font-size: 130px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 150px;
+    }
+    .imagenportada1 h2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: white;
+        text-align: center;
+        font-size: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 140px;
+    }
+    .boton-para-registrarse {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        margin: 2.1rem;
+        margin-left: 180px;
+    }
+    .carousel-inner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -440px;
+        width: 900px;
+        height: 500px;
+    }
+    .consejos{
+        color: #d0a9e7;
+        font-size: 40px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        align-items: center;
+    }
+    .consejo{
+        margin-top: 80px;
+        margin-left: 200px;
+        margin-bottom: 50px;
+        color: #be95f3;
+        font-size: 100px;
+    }
+    .consejo1{
+        display: flex;
+        justify-content: center;
+        margin-left: 100px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border: solid 20px rgba(111, 0, 255, 0.164);
+    }
+    .consejo2{
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        margin-left: 100px;
+        margin-bottom: 50px;
+        border: solid 20px rgba(111, 0, 255, 0.164);
+        width: 150px;
+    }
+    .consejo3{
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        margin-left: 100px;
+        margin-bottom: 50px;
+        border: solid 20px rgba(111, 0, 255, 0.164);
+    }
+/* FIN DEL INDEX */
+/* RANKINGS */
+.rankings-details h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3.5rem;
+    height: auto;
+    margin: 1.5rem;
+}
 
+.rankings-details1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: -200px;
+}
+.search-container2 input{
+    width: 180%;
+    height: 40px;
+    border: 2px solid;
+    background: rgb(255, 255, 255);
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    outline: none;
+}
+
+.details-1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    margin-left: 155px;
+    margin-top: 5px;
+}   
+
+.details-1 select{
+    width: 80%;
+    height: 40px;
+    border: 2px solid;
+    background: rgb(255, 255, 255);
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    outline: none;
+}
+
+.rankings-details1 svg{
+        width: 30px;
+        height: 30px;
+        color: white;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center; 
+        margin-left: 205px; 
+}
+.rankings-details h2{
+    width: 30px;
+    height: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+.tablerankings{
+    border: solid 1px rgba(255, 255, 255, 0.2);
+    margin-top: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+    margin-right: 105px;
+}
+.tablerankings table{
+    color: white;
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+.tablerankings thead{
+    background: rgba(243, 140, 210, 0.4);
+    font-size: 20px;
+}
+
+.tablerankings th{
+    padding: 80px 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.tablerankings td{
+    padding: 70px;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+}
 }
 /* Desktop */
 @media screen and (min-width: 1024px){
-    .body{
-        grid-template-columns: 1fr 3fr 1fr;
-        grid-template-rows: 1fr 2fr 2fr 0.5fr;
-        grid-template-areas: 
-            "nav header header"
-            "nav main aside"
-            "nav section aside"
-            "nav footer footer"
-        
-    }
+
 }
 
 
