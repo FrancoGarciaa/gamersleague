@@ -784,14 +784,21 @@ form .username {
 /* Mobile */
 @media screen and (min-width: 320px) and (max-width: 767px){
 /* INDEX */
-    header{
+    header ul li{
         background-color: #200f35;
         display: none;
     }
     footer{
-        display: none;
+        display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .copyright{
+        display: block;
+        margin-top: 50px;
+    }
+    .copyright ul li{
+    font-size: 10px;
     }
     .middle h1{
         font-family: fantasy;
@@ -829,19 +836,19 @@ form .username {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: -200px;
+        margin-left: -200   px;
         width: 500px;
         height: 400px;
     }
     .consejos{
         color: #d0a9e7;
-        font-size: 40px;
+        font-size: 20px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         align-items: center;
     }
     .consejo{
         margin-top: 80px;
-        margin-left: 200px;
+        margin-left: 5px;
         margin-bottom: 50px;
         color: #be95f3;
         font-size: 100px;
@@ -849,27 +856,29 @@ form .username {
     .consejo1{
         display: flex;
         justify-content: center;
-        margin-left: 100px;
+        margin-left: 30px;
         margin-top: 50px;
         margin-bottom: 50px;
-        border: solid 20px rgba(111, 0, 255, 0.164);
+        border: solid 15px rgba(111, 0, 255, 0.164);
+        width: 250px;
     }
     .consejo2{
         display: flex;
         justify-content: center;
         margin-top: 100px;
-        margin-left: 100px;
+        margin-left: 65px;
         margin-bottom: 50px;
-        border: solid 20px rgba(111, 0, 255, 0.164);
-        width: 150px;
+        border: solid 15px rgba(111, 0, 255, 0.164);
+        width: 250px;
     }
     .consejo3{
         display: flex;
         justify-content: center;
         margin-top: 100px;
-        margin-left: 100px;
+        margin-left: 30px;
         margin-bottom: 50px;
-        border: solid 20px rgba(111, 0, 255, 0.164);
+        border: solid 15px rgba(111, 0, 255, 0.164);
+        width: 250px;
     }
 /* FIN DEL INDEX */
 /* RANKINGS */
@@ -886,11 +895,11 @@ form .username {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-left: -200px;
+    margin-left: -175px;
 }
 .search-container2 input{
-    width: 180%;
-    height: 40px;
+    width: 108%;
+    height: 30px;
     border: 2px solid;
     background: rgb(255, 255, 255);
     font-size: 18px;
@@ -902,13 +911,13 @@ form .username {
 .details-1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1rem;
-    margin-left: 155px;
+    margin-left: 50px;
     margin-top: 5px;
 }   
 
 .details-1 select{
     width: 80%;
-    height: 40px;
+    height: 30px;
     border: 2px solid;
     background: rgb(255, 255, 255);
     font-size: 18px;
@@ -918,8 +927,8 @@ form .username {
 }
 
 .rankings-details1 svg{
-        width: 30px;
-        height: 30px;
+        width: 20px;
+        height: 20px;
         color: white;
         display: flex;
         justify-content: flex-start;
@@ -932,7 +941,7 @@ form .username {
     color: white;
     display: flex;
     justify-content: center;
-    margin-left: 200px;
+    margin-left: 80px;
 }
 
 .tablerankings{
@@ -942,28 +951,28 @@ form .username {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 90px;
-    margin-right: 105px;
+    margin-left: 10px;
+    margin-right: 5px;
 }
 .tablerankings table{
     color: white;
-    font-size: 14px;
+    font-size: 8px;
     table-layout: fixed;
     border-collapse: collapse;
 }
 .tablerankings thead{
     background: rgba(243, 140, 210, 0.4);
-    font-size: 20px;
+    font-size: 10px;
 }
 
 .tablerankings th{
-    padding: 80px 70px;
+    padding: 5px 0px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
 .tablerankings td{
-    padding: 70px;
+    padding: 9px;
     border-bottom: solid 1px rgba(255, 255, 255, 0.2);
 }
 
@@ -974,7 +983,14 @@ form .username {
     footer{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        justify-content: center;
+    }
+    .copyright{
+        margin-top: 20px;
+        font-size: -50px;
+    }
+    header ul li{
+        display: none;
     }
     .middle h1{
         font-family: fantasy;
@@ -985,7 +1001,6 @@ form .username {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left: 150px;
     }
     .imagenportada1 h2{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -997,7 +1012,8 @@ form .username {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left: 140px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
     .boton-para-registrarse {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -1005,13 +1021,13 @@ form .username {
         align-items: center;
         display: flex;
         margin: 2.1rem;
-        margin-left: 180px;
+        margin-left: -8px;
     }
     .carousel-inner{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: -440px;
+        margin-left: -300px;
         width: 900px;
         height: 500px;
     }
@@ -1023,7 +1039,7 @@ form .username {
     }
     .consejo{
         margin-top: 80px;
-        margin-left: 200px;
+        margin-left: 5px;
         margin-bottom: 50px;
         color: #be95f3;
         font-size: 100px;
@@ -1031,7 +1047,7 @@ form .username {
     .consejo1{
         display: flex;
         justify-content: center;
-        margin-left: 100px;
+        margin-left: 20px;
         margin-top: 50px;
         margin-bottom: 50px;
         border: solid 20px rgba(111, 0, 255, 0.164);
@@ -1040,16 +1056,15 @@ form .username {
         display: flex;
         justify-content: center;
         margin-top: 100px;
-        margin-left: 100px;
+        margin-left: 90px;
         margin-bottom: 50px;
         border: solid 20px rgba(111, 0, 255, 0.164);
-        width: 150px;
     }
     .consejo3{
         display: flex;
         justify-content: center;
         margin-top: 100px;
-        margin-left: 100px;
+        margin-left: 20px;
         margin-bottom: 50px;
         border: solid 20px rgba(111, 0, 255, 0.164);
     }
@@ -1068,10 +1083,10 @@ form .username {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-left: -200px;
+    margin-left: -80px;
 }
 .search-container2 input{
-    width: 180%;
+    width: 490px;
     height: 40px;
     border: 2px solid;
     background: rgb(255, 255, 255);
@@ -1114,7 +1129,7 @@ form .username {
     color: white;
     display: flex;
     justify-content: center;
-    margin-left: 200px;
+    margin-left: 191px;
 }
 
 .tablerankings{
@@ -1124,28 +1139,29 @@ form .username {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 90px;
-    margin-right: 105px;
+    margin-right: 190px;
+    margin-left: 190px;
+    margin-bottom: 15px;
 }
 .tablerankings table{
     color: white;
-    font-size: 14px;
+    font-size: 10px;
     table-layout: fixed;
     border-collapse: collapse;
 }
 .tablerankings thead{
     background: rgba(243, 140, 210, 0.4);
-    font-size: 20px;
+    font-size: 10px;
 }
 
 .tablerankings th{
-    padding: 80px 70px;
+    padding: 40px 10px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
 .tablerankings td{
-    padding: 70px;
+    padding: 10px;
     border-bottom: solid 1px rgba(255, 255, 255, 0.2);
 }
 }
