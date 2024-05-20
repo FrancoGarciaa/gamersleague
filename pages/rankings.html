@@ -11,25 +11,41 @@
 </head>
 <body id="Hola">
     <header>
-        <nav class="logo">
-            <a href="../index.html">
-                <img src="../assets/favicon-32x32.png" alt="Logo de la pagina para ir a la home" class="logo">
-            </a>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #05043f;">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="../assets/favicon-32x32.png" alt="Logo de la pagina para ir a la home" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><a href="../index.html">HOME</a></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><a href="./rankings.html">RANKINGS</a></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><a href="./juegos.html">JUEGOS</a></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><a href="./soporte.html">SOPORTE</a></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><a href="./novedades.html">NOVEDADES</a></a>
+                </li>
+                <li class="nav-item1">
+                    <a class="nav-link disabled" aria-disabled="true"><a href="./iniciarsesion.html">INICIAR SESION</a></a>
+                </li>
+                </ul>
+            </div>
+            </div>
         </nav>
         <nav>
             <ul>
-                <li><a href="../index.html">HOME</a></li>
-                <li><a href="./rankings.html">RANKINGS</a></li>
-                <li><a href="./juegos.html">JUEGOS</a></li>
-                <li><a href="./soporte.html">SOPORTE</a></li>
-                <li><a href="./novedades.html">NOVEDADES</a></li>
-                <!-- <li><a href="pages/iniciarsesion.html" class="account">INICIAR SESION</a></li> -->
-            </ul>  
-            <nav>
-                <ul>
-                    <li><a href="./iniciarsesion.html"><input type="submit" value="INICIAR SESION" class="account"></a>
-                </ul>
-            </nav> 
+                <li><a href="pages/iniciarsesion.html"><input type="submit" value="INICIAR SESION" class="account"></a>
+            </ul>
+        </nav> 
     </header>
     <main class="rankings-details">
             <h1>RANKINGS</h1>
