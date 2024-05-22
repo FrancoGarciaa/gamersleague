@@ -76,7 +76,7 @@ ul li a{
     top: 25px;
 }   
 .account {
-    width: 10%;
+    width: 160px;
     height: 45px;
     border: none;
     background: rgb(196, 11, 180);;
@@ -96,17 +96,27 @@ ul li a{
 /*final del header*/
 /***************************************************************************************/
 /*comeinzo del body*/
-.fondo-del-index {
+.fondo1-index {
     overflow-x: hidden;
-    background-image: url(../assets/fondo-de-la-home.png);
+    background-image: url(../assets/Diseño\ sin\ título\ \(1\).png);
     background-size: cover;
     background-position: center; 
+    height: 100vh;
 }
+.fondo-del-index{
+    overflow-x: hidden;
+    background-image: url(../assets/Diseño\ sin\ título.png);
+    background-size: cover;
+    background-position: center; 
+    height: 250vh;
+}
+
 body {
     overflow-x: hidden;
     background-image: url(../assets/thumb2-black-3d-pyramids-background-black-polygons-3d-background-black-polygons-purple-neon-light.jpg);
     background-size: cover;
     background-position: center; 
+    height: 100vh;
 }
 /* FINAL DEL BODY ********************************************************************/        
   /* COMIENZO DE MAIN***************************************************************** */
@@ -488,7 +498,7 @@ h1 {color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 350px;
+    margin-top: 310px;
     margin-right: 125px;
     width: 150%;
     height: 50px;
@@ -591,6 +601,7 @@ h1 {color: white;
 .tablerankings td{
     padding: 70px;
     border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+    background: rgba(243, 103, 199, 0.062);
 }
 .tablerankings tbody tr:hover{
     background: rgba(243, 103, 199, 0.4);
@@ -893,9 +904,13 @@ form .username {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: -370px;
+        margin-left: -350px;
         width: 760px;
         height: 400px;
+    }
+    .w-35{
+        width: 360px;
+        height: 300px;
     }
     .consejos{
         color: #d0a9e7;
@@ -1011,17 +1026,18 @@ form .username {
     align-items: center;
     margin-left: 10px;
     margin-right: 5px;
+    margin-top: 10px;
 }
 .tablerankings table{
     color: white;
     font-size: 8px;
     table-layout: fixed;
     border-collapse: collapse;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 .tablerankings thead{
     background: rgba(243, 140, 210, 0.4);
-    font-size: 10px;
+    font-size: 9px;
 }
 
 .tablerankings th{
@@ -1034,6 +1050,7 @@ form .username {
     padding: 9px;
     border-bottom: solid 1px rgba(255, 255, 255, 0.2);
     margin-bottom: 150px;
+    background: rgba(243, 103, 199, 0.137);
 }
 
 /* FIN DEL RANKINGS */
@@ -1107,6 +1124,7 @@ form .username {
     align-items: center;
     flex-direction: column;
     height: 0%;
+    margin-bottom: 1200px;
 }
 .soporte-details aside{
     display: flex;
@@ -1258,7 +1276,7 @@ display: none;
 
 .novedadestittle h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1577,6 +1595,7 @@ form .username {
 .tablerankings td{
     padding: 10px;
     border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+    background: rgba(243, 103, 199, 0.062);
 }
 /* FINAL DE RANKINGS */
 /* COMIENZO DE JUEGOS */
@@ -1880,16 +1899,19 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin-left: -80px;
-margin-top: -80px;
+margin-top: -220px;
 } 
 /* FINAL DE INICIAR SESION */
 }
 /* Desktop */
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px){  
 .nav-item1{
     display: none;
 }
 .noticias-mobile{
     display: none;
+}
+.logo-iniciosesion{
+    margin-top: -30px;
 }
 }
