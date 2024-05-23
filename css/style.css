@@ -120,6 +120,7 @@ body {
 }
 /* FINAL DEL BODY ********************************************************************/        
   /* COMIENZO DE MAIN***************************************************************** */
+/* COMIENZO INDEX */
 .boton-para-registrarse {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     flex-direction: column;
@@ -189,6 +190,56 @@ h1 {color: white;
     height: 40rem;
     width: 500px;
 } */
+.carousel-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -215px;
+}
+
+.consejos{
+    color: #d0a9e7;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.consejo{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    color: #be95f3;
+}
+.consejo1{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 50px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    border: solid 10px rgba(111, 0, 255, 0.164);
+}
+.consejo2{
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    border: solid 10px rgba(111, 0, 255, 0.164);
+}
+.consejo3{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 600px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    border: solid 10px rgba(111, 0, 255, 0.164);
+}
+/* .carousel-inner{
+    display: flex;
+    justify-content: center;
+} */
+
+/* FINAL DEL INDEX */
+/* Comienzo de juegos */
 .details-game {
     text-align: center;
     margin: 1.5rem;
@@ -203,6 +254,56 @@ h1 {color: white;
     width: 250px;
     padding: 0.5rem;
 }
+.juegos1 h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3.5rem;
+    height: auto;
+    left: 40px;
+    margin: 3rem;
+}
+.juegos1 svg{
+    width: 38px;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    right: 210px;
+    top: 60%;
+}
+
+.games-bc {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: -250px;
+    }
+
+.juegos1 h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 290px;
+    color: white;
+}
+
+.search-container input{
+    width: 250%;
+    height: 50px;
+    border: 2px solid;
+    background: rgb(255, 255, 255);
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    justify-content: center;
+}
+/* Final de juegos */
+/* Comienzo de NOVEDADES */
 .news{
     display: flex;
     justify-content: center;
@@ -321,54 +422,6 @@ h1 {color: white;
     height: 250px;
 }
 
-.juegos1 h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 3.5rem;
-    height: auto;
-    left: 40px;
-    margin: 3rem;
-}
-.juegos1 svg{
-    width: 38px;
-    height: 50px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    right: 210px;
-    top: 60%;
-}
-
-.games-bc {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1rem;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-left: -250px;
-    }
-
-.juegos1 h2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
-    margin-right: 290px;
-    color: white;
-}
-
-.search-container input{
-    width: 250%;
-    height: 50px;
-    border: 2px solid;
-    background: rgb(255, 255, 255);
-    font-size: 18px;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-    outline: none;
-    display: flex;
-    justify-content: center;
-}
 .swiper {
     width: 1800px;
     height: 400px;
@@ -405,7 +458,7 @@ h1 {color: white;
     color: white;
     margin-bottom: 20px;
 }
-
+/* FINAL DE NOVEDADES */
 /* SOPORTE */
 .soporte-details h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -508,6 +561,7 @@ h1 {color: white;
     height: 300px;
     margin-right: -240px;
 }
+/* SOPORTE */
 /* RANKINGS */
 .rankings-details h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -609,54 +663,7 @@ h1 {color: white;
 .details-1{
     color: white;
 }
-.carousel-inner{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: -215px;
-}
-
-.consejos{
-    color: #d0a9e7;
-    font-size: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.consejo{
-    display: flex;
-    justify-content: center;
-    margin-top: 80px;
-    margin-bottom: 50px;
-    color: #be95f3;
-}
-.consejo1{
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 50px;
-    margin-top: 80px;
-    margin-bottom: 50px;
-    border: solid 10px rgba(111, 0, 255, 0.164);
-}
-.consejo2{
-    display: flex;
-    justify-content: center;
-    margin-left: 300px;
-    margin-top: 150px;
-    margin-bottom: 50px;
-    border: solid 10px rgba(111, 0, 255, 0.164);
-}
-.consejo3{
-    display: flex;
-    justify-content: flex-end;
-    margin-left: 600px;
-    margin-top: 150px;
-    margin-bottom: 50px;
-    border: solid 10px rgba(111, 0, 255, 0.164);
-}
-/* .carousel-inner{
-    display: flex;
-    justify-content: center;
-} */
-
+/* RANKINGS */
 /*final de main*/
 /***************************************************************************/
 /*Comienzo del footer*/
