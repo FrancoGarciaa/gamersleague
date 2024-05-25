@@ -1,0 +1,26 @@
+@import 'header';
+@import 'footer';
+@import 'iniciarsesion';
+@import 'juegos';
+@import 'novedades';
+@import 'rankings';
+@import 'soporte';
+@import 'index';
+@import 'desktop';
+@import 'tablet';
+@import 'mobile';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    body {
+        overflow-x: hidden;
+        background-image: url(../assets/thumb2-black-3d-pyramids-background-black-polygons-3d-background-black-polygons-purple-neon-light.jpg);
+        background-size: cover;
+        background-position: center; 
+        height: 100vh;
+    }
+    
+}

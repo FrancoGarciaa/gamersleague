@@ -1,0 +1,67 @@
+html{
+    header {
+        background-color: #05043f;  
+        nav{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            ul{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;
+                li{
+                    list-style-type: none;
+                    color: rgb(255, 255, 255);
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    font-weight: 300;
+                    font-style: normal;
+                    text-align: center;
+                    display: inline;
+                    margin-left: 2.5rem;
+                    font-size: 1.15rem;
+                    a{
+                        color: rgb(255, 255, 255);
+                        text-decoration: none;
+                    
+                }
+            }
+            }
+            .logo {
+                height: 3rem;
+                width: 100px;
+                position: relative;
+                bottom: -11px;
+            }
+            .account{
+                list-style-type: none;
+                color: rgb(255, 255, 255);
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-weight: 300;
+                font-style: normal;
+                margin-right: 2rem;
+                font-size: 1rem;
+                position: absolute;
+                right: 35px;
+                top: 25px;
+            }   
+            .account {
+                width: 160px;
+                height: 45px;
+                border: none;
+                background: rgb(196, 11, 180);;
+                font-size: 15px;
+                color: rgb(0, 0, 0);
+                cursor: pointer;
+                outline: none;
+                text-decoration: none;
+                position: absolute;
+            }
+        }
+        .navbar-collapse{
+            display: flex;
+            justify-content: center;
+            margin-right: 150px;
+        }
+    }
+}

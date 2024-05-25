@@ -1,0 +1,103 @@
+
+html{
+    .fondo-del-index{
+        overflow-x: hidden;
+        background-image: url(../assets/Diseño\ sin\ título.png);
+        background-size: cover;
+        background-position: center; 
+        height: 250vh;
+    }
+    .fondo1-index{
+        overflow-x: hidden;
+        background-image: url(../assets/Diseño\ sin\ título\ \(1\).png);
+        background-size: cover;
+        background-position: center; 
+        height: 100vh;
+        h1{
+            font-family: fantasy;
+            font-weight: 300;   
+            font-style: normal;
+            text-align: center;
+            font-size: 130px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+        }
+        h2{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            color: white;
+            text-align: center;
+            font-size: 60px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .boton-para-registrarse {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            flex-direction: column;
+            align-items: center;
+            display: flex;
+            margin: 2.1rem;
+            input[type="submit"]{
+                width: 120%;
+                height: 60px;
+                border: 2px solid;
+                background: none;
+                font-size: 18px;
+                color: rgb(255, 255, 255);
+                cursor: pointer;
+                outline: none;
+                text-decoration: none;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            
+        }
+        .carousel-inner{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: -215px;
+        }
+    }
+    .fondo2-index{
+        .consejo{
+            display: flex;
+            justify-content: center;
+            margin-top: 80px;
+            margin-bottom: 50px;
+            color: #be95f3;
+        }
+        .consejos{
+            color: #d0a9e7;
+            font-size: 25px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            .consejo1{
+                display: flex;
+                justify-content: flex-start;
+                margin-left: 50px;
+                margin-top: 80px;
+                margin-bottom: 50px;
+                border: solid 10px rgba(111, 0, 255, 0.164);
+            }
+            .consejo2{
+                display: flex;
+                justify-content: center;
+                margin-left: 300px;
+                margin-top: 150px;
+                margin-bottom: 50px;
+                border: solid 10px rgba(111, 0, 255, 0.164);
+            }
+            .consejo3{
+                display: flex;
+                justify-content: flex-end;
+                margin-left: 600px;
+                margin-top: 150px;
+                margin-bottom: 50px;
+                border: solid 10px rgba(111, 0, 255, 0.164);
+            }
+        }
+    }
+}
