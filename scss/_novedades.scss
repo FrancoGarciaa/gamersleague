@@ -2,7 +2,7 @@ html{
     main{
         .novedadestittle{
             h1{
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-family: $fuente-pagina;
                 font-size: 3.5rem;
                 height: auto;
                 left: 40px;
@@ -11,7 +11,7 @@ html{
                 color: white;
         }
             h2{
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-family: $fuente-pagina;
                 font-size: 4rem;
                 display: flex;
                 justify-content: center;

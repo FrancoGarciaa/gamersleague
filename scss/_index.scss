@@ -25,7 +25,7 @@ html{
             color: white;
         }
         h2{
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-family: $fuente-pagina;
             font-weight: 300;
             font-style: normal;
             color: white;
@@ -36,7 +36,7 @@ html{
             align-items: center;
         }
         .boton-para-registrarse {
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-family: $fuente-pagina;
             flex-direction: column;
             align-items: center;
             display: flex;
@@ -47,11 +47,11 @@ html{
                 border: 2px solid;
                 background: none;
                 font-size: 18px;
-                color: rgb(255, 255, 255);
+                color: white;
                 cursor: pointer;
                 outline: none;
                 text-decoration: none;
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-family: $fuente-pagina;
             }
             
         }
@@ -68,19 +68,19 @@ html{
             justify-content: center;
             margin-top: 80px;
             margin-bottom: 50px;
-            color: #be95f3;
+            color: $cremaVioleta;
         }
         .consejos{
-            color: #d0a9e7;
+            color: $crema;
             font-size: 25px;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-family: $fuente-pagina;
             .consejo1{
                 display: flex;
                 justify-content: flex-start;
                 margin-left: 50px;
                 margin-top: 80px;
                 margin-bottom: 50px;
-                border: solid 10px rgba(111, 0, 255, 0.164);
+                border: solid 10px $border-violetaOscuro;
             }
             .consejo2{
                 display: flex;
@@ -88,7 +88,7 @@ html{
                 margin-left: 300px;
                 margin-top: 150px;
                 margin-bottom: 50px;
-                border: solid 10px rgba(111, 0, 255, 0.164);
+                border: solid 10px $border-violetaOscuro;
             }
             .consejo3{
                 display: flex;
@@ -96,7 +96,7 @@ html{
                 margin-left: 600px;
                 margin-top: 150px;
                 margin-bottom: 50px;
-                border: solid 10px rgba(111, 0, 255, 0.164);
+                border: solid 10px $border-violetaOscuro;
             }
         }
     }

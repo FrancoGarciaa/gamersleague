@@ -14,9 +14,9 @@ html{
             height: 100vh;
             color: white;   
             font-size: 30px;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-family: $fuente-pagina;
         h1{
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-family: $fuente-pagina;
             font-size: 3.5rem;
             height: auto;
             left: 40px;
@@ -24,7 +24,7 @@ html{
             margin-left: 3rem;
         }
         h2{
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-family: $fuente-pagina;
             font-size: 5rem;
             height: auto;
             color: white;
@@ -55,7 +55,7 @@ html{
                 background: rebeccapurple;
                 border-radius: 25px;
                 font-size: 18px;
-                color: rgb(20, 11, 11);
+                color: black;
                 cursor: pointer;
                 outline: none;
                 margin-right: 15px;
@@ -70,7 +70,7 @@ html{
                 background: rebeccapurple;
                 border-radius: 25px;
                 font-size: 18px;
-                color: rgb(20, 11, 11);
+                color: black;
                 cursor: pointer;
                 outline: none;
             }

@@ -1,6 +1,6 @@
 html{
     header {
-        background-color: #05043f;  
+        background-color: $header-fondo;  
         nav{
             display: flex;
             flex-direction: row;
@@ -12,8 +12,8 @@ html{
                 justify-content: space-around;
                 li{
                     list-style-type: none;
-                    color: rgb(255, 255, 255);
-                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    color: white;
+                    font-family: $fuente-pagina;
                     font-weight: 300;
                     font-style: normal;
                     text-align: center;
@@ -21,7 +21,7 @@ html{
                     margin-left: 2.5rem;
                     font-size: 1.15rem;
                     a{
-                        color: rgb(255, 255, 255);
+                        color: white;
                         text-decoration: none;
                     
                 }
@@ -32,11 +32,12 @@ html{
                 width: 100px;
                 position: relative;
                 bottom: -11px;
+                right: 30px;
             }
             .account{
                 list-style-type: none;
-                color: rgb(255, 255, 255);
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: white;
+                font-family: $fuente-pagina;
                 font-weight: 300;
                 font-style: normal;
                 margin-right: 2rem;
@@ -49,9 +50,9 @@ html{
                 width: 160px;
                 height: 45px;
                 border: none;
-                background: rgb(196, 11, 180);;
+                background: $rosaLiviano;
                 font-size: 15px;
-                color: rgb(0, 0, 0);
+                color: black;
                 cursor: pointer;
                 outline: none;
                 text-decoration: none;

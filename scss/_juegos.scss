@@ -1,7 +1,7 @@
 html{
     .juegos1{
         h1 {
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-family: $fuente-pagina;
             font-size: 3.5rem;
             height: auto;
             left: 40px;
@@ -17,7 +17,7 @@ html{
             color: white;
         }
         .games-bc {
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-family: $fuente-pagina;
             font-size: 1rem;
             display: flex;
             justify-content: center;
@@ -37,9 +37,9 @@ html{
                     width: 250%;
                     height: 50px;
                     border: 2px solid;
-                    background: rgb(255, 255, 255);
+                    background: white;
                     font-size: 18px;
-                    color: rgb(0, 0, 0);
+                    color: black;
                     cursor: pointer;
                     outline: none;
                     display: flex;

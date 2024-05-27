@@ -1,7 +1,7 @@
 html{
     .rankings-details{
         h1 {
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-family: $fuente-pagina;
             font-size: 3.5rem;
             height: auto;
             margin: 3rem;
@@ -16,7 +16,7 @@ html{
             margin-left: 200px;
         }
         .rankings-details1 {
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-family: $fuente-pagina;
             font-size: 1rem;
             display: flex;
             justify-content: flex-start;
@@ -35,15 +35,15 @@ html{
                 width: 180%;
                 height: 40px;
                 border: 2px solid;
-                background: rgb(255, 255, 255);
+                background: white;
                 font-size: 18px;
-                color: rgb(0, 0, 0);
+                color: black;
                 cursor: pointer;
                 outline: none;
             }
         }
         .details-1{
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-family: $fuente-pagina;
             font-size: 1rem;
             margin-left: 155px;
             margin-top: 5px;
@@ -52,15 +52,15 @@ html{
                 width: 80%;
                 height: 40px;
                 border: 2px solid;
-                background: rgb(255, 255, 255);
+                background: white;
                 font-size: 18px;
-                color: rgb(0, 0, 0);
+                color: black;
                 cursor: pointer;
                 outline: none;
             }
         }
         .tablerankings{
-            border: solid 1px rgba(255, 255, 255, 0.2);
+            border: solid 1px $transparante;
             margin-top: 50px;
             cursor: pointer;
             display: flex;
@@ -75,7 +75,7 @@ html{
                 border-collapse: collapse;
             }
             thead{
-                background: rgba(243, 140, 210, 0.4);
+                background: $cremaTransparente;
                 font-size: 20px;
             }
             th{
@@ -85,11 +85,11 @@ html{
             }
             td{
                 padding: 70px;
-                border-bottom: solid 1px rgba(255, 255, 255, 0.2);
-                background: rgba(243, 103, 199, 0.062);
+                border-bottom: solid 1px $transparante;
+                background: $fondo-td;
             }
             tbody tr:hover{
-                background: rgba(243, 103, 199, 0.4);
+                background: $violetaTransparente;
             }
         }
     }
