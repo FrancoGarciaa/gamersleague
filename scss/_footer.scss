@@ -34,18 +34,24 @@ html{
             .icons-direction{
                 display: flex;
                 justify-content: space-evenly;
+                a svg:hover{
+                    color: $crema;
+                }
                 .bi-instagram { 
-                    color: white;
-                    text-decoration: none;
+                    @extend .footer-icons;
                 }
                 .bi-twitter-x {
-                    color: white;
-                    text-decoration: none;
+                    @extend .footer-icons;
                 }
                 .bi-youtube {
-                    color: white;
-                    text-decoration: none;
+                    @extend .footer-icons;
                 }
+            }
+            article ul li{
+                cursor: pointer;
+            }
+            article ul li:hover{
+                color: $crema;
             }
         }
     }

@@ -1,4 +1,23 @@
 @charset "UTF-8";
+/*Extend de novedades*/
+.novedades-noticias, html main .swiper-slide .new-7, html main .swiper-slide .new-6, html main .swiper-slide .new-5, html main .swiper-slide .new-4, html main .swiper-slide .new-3, html main .swiper-slide .new-2, html main .swiper-slide .new-1 {
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  background-color: white;
+  border-radius: 10px;
+  height: 410px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+/*noticias mobile*/
+/*******************/
+.footer-icons, html footer .copyright .icons-direction .bi-youtube, html footer .copyright .icons-direction .bi-twitter-x, html footer .copyright .icons-direction .bi-instagram {
+  color: white;
+  text-decoration: none;
+}
+
 html header {
   background-color: #05043f;
 }
@@ -27,6 +46,9 @@ html header nav ul li {
 html header nav ul li a {
   color: white;
   text-decoration: none;
+}
+html header nav ul a:hover {
+  color: #be95f3;
 }
 html header nav .logo {
   height: 3rem;
@@ -103,17 +125,14 @@ html footer .copyright .icons-direction {
   display: flex;
   justify-content: space-evenly;
 }
-html footer .copyright .icons-direction .bi-instagram {
-  color: white;
-  text-decoration: none;
+html footer .copyright .icons-direction a svg:hover {
+  color: #d0a9e7;
 }
-html footer .copyright .icons-direction .bi-twitter-x {
-  color: white;
-  text-decoration: none;
+html footer .copyright article ul li {
+  cursor: pointer;
 }
-html footer .copyright .icons-direction .bi-youtube {
-  color: white;
-  text-decoration: none;
+html footer .copyright article ul li:hover {
+  color: #d0a9e7;
 }
 
 html main .middle-inicio {
@@ -317,99 +336,29 @@ html main .swiper-slide img {
   width: 100%;
   height: 100%;
 }
-html main .swiper-slide .new-1 {
-  top: 50%;
-  left: 50%;
-  width: 400px;
-  background-color: white;
-  border-radius: 10px;
-  height: 410px;
-  font-size: 25px;
-  cursor: pointer;
-}
 html main .swiper-slide .new-1 .new1 {
   width: 400px;
   height: 250px;
-}
-html main .swiper-slide .new-2 {
-  top: 50%;
-  left: 50%;
-  width: 400px;
-  background-color: white;
-  border-radius: 10px;
-  height: 410px;
-  font-size: 25px;
-  cursor: pointer;
 }
 html main .swiper-slide .new-2 .new2 {
   width: 400px;
   height: 250px;
 }
-html main .swiper-slide .new-3 {
-  top: 50%;
-  left: 50%;
-  width: 400px;
-  background-color: white;
-  border-radius: 10px;
-  height: 410px;
-  font-size: 25px;
-  cursor: pointer;
-}
 html main .swiper-slide .new-3 .new3 {
   width: 400px;
   height: 250px;
-}
-html main .swiper-slide .new-4 {
-  top: 50%;
-  left: 50%;
-  width: 400px;
-  background-color: white;
-  border-radius: 10px;
-  height: 410px;
-  font-size: 25px;
-  cursor: pointer;
 }
 html main .swiper-slide .new-4 .new4 {
   width: 400px;
   height: 250px;
 }
-html main .swiper-slide .new-5 {
-  top: 50%;
-  left: 50%;
-  width: 500px;
-  background-color: white;
-  border-radius: 10px;
-  height: 410px;
-  font-size: 25px;
-  cursor: pointer;
-}
 html main .swiper-slide .new-5 .new5 {
   width: 450px;
   height: 250px;
 }
-html main .swiper-slide .new-6 {
-  top: 50%;
-  left: 50%;
-  width: 400px;
-  background-color: white;
-  border-radius: 10px;
-  height: 410px;
-  font-size: 25px;
-  cursor: pointer;
-}
 html main .swiper-slide .new-6 .new6 {
   width: 400px;
   height: 250px;
-}
-html main .swiper-slide .new-7 {
-  top: 50%;
-  left: 50%;
-  width: 400px;
-  background-color: white;
-  border-radius: 10px;
-  height: 410px;
-  font-size: 25px;
-  cursor: pointer;
 }
 html main .swiper-slide .new-7 .new7 {
   width: 400px;
@@ -656,6 +605,9 @@ html .fondo1-index .boton-para-registrarse input[type=submit] {
   outline: none;
   text-decoration: none;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+html .fondo1-index .boton-para-registrarse input[type=submit]:hover {
+  color: rgb(240, 8, 170);
 }
 html .fondo1-index .carousel-inner {
   display: flex;
@@ -985,99 +937,29 @@ html .fondo2-index .consejos .consejo3 {
     width: 100%;
     height: 100%;
   }
-  html main .swiper-slide .new-1 {
-    top: 50%;
-    left: 50%;
-    width: 400px;
-    background-color: white;
-    border-radius: 10px;
-    height: 410px;
-    font-size: 25px;
-    cursor: pointer;
-  }
   html main .swiper-slide .new-1 .new1 {
     width: 400px;
     height: 250px;
-  }
-  html main .swiper-slide .new-2 {
-    top: 50%;
-    left: 50%;
-    width: 400px;
-    background-color: white;
-    border-radius: 10px;
-    height: 410px;
-    font-size: 25px;
-    cursor: pointer;
   }
   html main .swiper-slide .new-2 .new2 {
     width: 400px;
     height: 250px;
   }
-  html main .swiper-slide .new-3 {
-    top: 50%;
-    left: 50%;
-    width: 400px;
-    background-color: white;
-    border-radius: 10px;
-    height: 410px;
-    font-size: 25px;
-    cursor: pointer;
-  }
   html main .swiper-slide .new-3 .new3 {
     width: 400px;
     height: 250px;
-  }
-  html main .swiper-slide .new-4 {
-    top: 50%;
-    left: 50%;
-    width: 400px;
-    background-color: white;
-    border-radius: 10px;
-    height: 410px;
-    font-size: 25px;
-    cursor: pointer;
   }
   html main .swiper-slide .new-4 .new4 {
     width: 400px;
     height: 250px;
   }
-  html main .swiper-slide .new-5 {
-    top: 50%;
-    left: 50%;
-    width: 500px;
-    background-color: white;
-    border-radius: 10px;
-    height: 410px;
-    font-size: 25px;
-    cursor: pointer;
-  }
   html main .swiper-slide .new-5 .new5 {
     width: 450px;
     height: 250px;
   }
-  html main .swiper-slide .new-6 {
-    top: 50%;
-    left: 50%;
-    width: 400px;
-    background-color: white;
-    border-radius: 10px;
-    height: 410px;
-    font-size: 25px;
-    cursor: pointer;
-  }
   html main .swiper-slide .new-6 .new6 {
     width: 400px;
     height: 250px;
-  }
-  html main .swiper-slide .new-7 {
-    top: 50%;
-    left: 50%;
-    width: 400px;
-    background-color: white;
-    border-radius: 10px;
-    height: 410px;
-    font-size: 25px;
-    cursor: pointer;
   }
   html main .swiper-slide .new-7 .new7 {
     width: 400px;
@@ -1560,43 +1442,7 @@ html .fondo2-index .consejos .consejo3 {
     display: block;
     margin-left: 60px;
   }
-  html main .noticias-mobile .new1 {
-    width: 300px;
-    height: 250px;
-    border-radius: 5px;
-    margin-bottom: 15px;
-  }
-  html main .noticias-mobile .new2 {
-    width: 300px;
-    height: 250px;
-    border-radius: 5px;
-    margin-bottom: 15px;
-  }
-  html main .noticias-mobile .new3 {
-    width: 300px;
-    height: 250px;
-    border-radius: 5px;
-    margin-bottom: 15px;
-  }
-  html main .noticias-mobile .new4 {
-    width: 300px;
-    height: 250px;
-    border-radius: 5px;
-    margin-bottom: 15px;
-  }
-  html main .noticias-mobile .new5 {
-    width: 300px;
-    height: 250px;
-    border-radius: 5px;
-    margin-bottom: 15px;
-  }
-  html main .noticias-mobile .new6 {
-    width: 300px;
-    height: 250px;
-    border-radius: 5px;
-    margin-bottom: 15px;
-  }
-  html main .noticias-mobile .new7 {
+  html main .noticias-mobile .news-mobile {
     width: 300px;
     height: 250px;
     border-radius: 5px;
