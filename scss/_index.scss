@@ -92,7 +92,7 @@ html{
                 @extend .index-consejos;
                 margin-left: 300px;
                 margin-top: 150px;
-                margin-left: map-get($margins, margin-bottom);
+                margin-bottom: 50px;
                 border: solid 10px $border-violetaOscuro;
             }
             .consejo3{

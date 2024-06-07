@@ -1241,20 +1241,24 @@ html .fondo2-index .consejos .consejo3 {
   html .fondo2-index .consejos .consejo2 {
     display: flex;
     justify-content: center;
-    margin-left: 30px;
+    margin-left: 15px;
     margin-top: 50px;
     margin-bottom: 50px;
     border: solid 15px rgba(111, 0, 255, 0.164);
     width: 250px;
+    margin-left: 50px;
+    width: 340px;
   }
   html .fondo2-index .consejos .consejo3 {
     display: flex;
     justify-content: center;
-    margin-left: 30px;
+    margin-left: 15px;
     margin-top: 50px;
     margin-bottom: 50px;
     border: solid 15px rgba(111, 0, 255, 0.164);
     width: 250px;
+    margin-left: 50px;
+    width: 340px;
   }
   html main .middle-inicio {
     display: flex;

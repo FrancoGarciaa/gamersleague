@@ -109,7 +109,7 @@
                 @mixin consejo1-mobile{
                     display: flex;
                     justify-content: center;
-                    margin-left: 30px;
+                    margin-left: 15px;
                     margin-top: 50px;
                     margin-bottom: 50px;
                     border: solid 15px $border-violetaOscuro;
@@ -117,9 +117,13 @@
                 }
                 .consejo2{
                     @include consejo1-mobile;
+                    margin-left: 50px;
+                    width: 340px;
                 }
                 .consejo3{
                     @include consejo1-mobile;
+                    margin-left: 50px;
+                    width: 340px;
                 }
             }
         }
