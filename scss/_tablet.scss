@@ -82,31 +82,29 @@
                 font-family: $fuente-pagina;
                 align-items: center;
                 .consejo1{
-                    display: flex;
-                    justify-content: center;
+                    @extend .index-consejos;
                     margin-left: 20px;
                     margin-top: 50px;
                     margin-bottom: 50px;
                     border: solid 20px $border-violetaOscuro;
                 }
                 .consejo2{
-                    display: flex;
-                    justify-content: center;
+                    @extend .index-consejos;
                     margin-top: 100px;
                     margin-left: 90px;
                     margin-bottom: 50px;
                     border: solid 20px $border-violetaOscuro;
                 }
                 .consejo3{
-                    display: flex;
-                    justify-content: center;
+                    @extend .index-consejos;
                     margin-top: 100px;
                     margin-left: 20px;
                     margin-bottom: 50px;
                     border: solid 20px $border-violetaOscuro;
                 }
             }
-        }main{
+        }
+        main{
             .middle-inicio {
                 display: flex;
                 justify-content: center;
@@ -404,8 +402,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-right: 105px;
-            margin-left: 105px;
+            margin-right: 130px;
+            margin-left: 120px;
             margin-bottom: 15px;
             table{
                 color: white;

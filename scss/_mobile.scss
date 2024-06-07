@@ -106,7 +106,7 @@
                 font-size: 20px;
                 font-family: $fuente-pagina;
                 align-items: center;
-                .consejo1{
+                @mixin consejo1-mobile{
                     display: flex;
                     justify-content: center;
                     margin-left: 30px;
@@ -116,22 +116,10 @@
                     width: 250px;
                 }
                 .consejo2{
-                    display: flex;
-                    justify-content: center;
-                    margin-top: 100px;
-                    margin-left: 150px;
-                    margin-bottom: 50px;
-                    border: solid 15px $border-violetaOscuro;
-                    width: 250px;
+                    @include consejo1-mobile;
                 }
                 .consejo3{
-                    display: flex;
-                    justify-content: center;
-                    margin-top: 100px;
-                    margin-left: 30px;
-                    margin-bottom: 50px;
-                    border: solid 15px $border-violetaOscuro;
-                    width: 250px;
+                    @include consejo1-mobile;
                 }
             }
         }

@@ -77,24 +77,26 @@ html{
             font-size: 25px;
             font-family: $fuente-pagina;
             .consejo1{
-                display: flex;
-                justify-content: flex-start;
-                margin-left: 50px;
-                margin-top: 80px;
-                margin-bottom: 50px;
+                @extend .index-consejos;
+                $margins:(
+                    margin-left: 50px,
+                    margin-top: 80px,
+                    margin-bottom: 50px
+                );
+                margin-left: map-get($margins, margin-left);
+                margin-left: map-get($margins, margin-top);
+                margin-left: map-get($margins, margin-bottom);
                 border: solid 10px $border-violetaOscuro;
             }
             .consejo2{
-                display: flex;
-                justify-content: center;
+                @extend .index-consejos;
                 margin-left: 300px;
                 margin-top: 150px;
-                margin-bottom: 50px;
+                margin-left: map-get($margins, margin-bottom);
                 border: solid 10px $border-violetaOscuro;
             }
             .consejo3{
-                display: flex;
-                justify-content: flex-end;
+                @extend .index-consejos;
                 margin-left: 600px;
                 margin-top: 150px;
                 margin-bottom: 50px;
